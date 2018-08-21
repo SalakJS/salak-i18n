@@ -1,0 +1,36 @@
+{
+  "name": "salak-i18n",
+  "version": "1.0.0",
+  "description": "salak i18n plugin",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salakjs/salak-i18n.git"
+  },
+  "keywords": [
+    "salak",
+    "i18n"
+  ],
+  "author": "wengeek <wenwei897684475@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salakjs/salak-i18n/issues"
+  },
+  "homepage": "https://github.com/salakjs/salak-i18n#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.13.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^23.5.0",
+    "salak": "^2.0.0-beta.15",
+    "supertest": "^3.1.0"
+  }
+}
